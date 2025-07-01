@@ -1,8 +1,9 @@
 {
   "name": "doc-notes",
   "module": "index.ts",
-  "type": "module",
+  "version": "0.1.0",
   "private": true,
+  "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
   },
