@@ -4,14 +4,24 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "dev.genkit": "genkit start -- bun run ./src/ai.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/filenamify": "^3.0.1",
+    "@types/xml2js": "^0.4.14",
+    "genkit-cli": "^1.14.0",
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.14.0",
-    "genkit": "^1.14.0"
+    "filenamify": "^6.0.0",
+    "genkit": "^1.14.0",
+    "pdf-ts": "^0.0.2",
+    "xml2js": "^0.6.2"
   }
 }
